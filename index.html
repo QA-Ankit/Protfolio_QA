@@ -1,0 +1,1839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ankit Kumar Bhartiya | Software Test Engineer</title>
+
+    <meta name="description"
+        content="Premium Portfolio of Ankit Kumar Bhartiya - Software Test Engineer specializing in Automation Testing, Selenium, Java, API Testing and Quality Engineering.">
+
+    <meta name="keywords"
+        content="Software Test Engineer, Selenium, Java, Automation Testing, QA Engineer, Portfolio">
+
+    <meta name="author" content="Ankit Kumar Bhartiya">
+
+    <meta property="og:title" content="Ankit Kumar Bhartiya Portfolio">
+    <meta property="og:description"
+        content="Premium Software Test Engineer Portfolio">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="assets/icons/favicon.png">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Remix Icons -->
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Lenis -->
+
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+
+    <!-- GSAP -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <!-- Three JS -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r160/three.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+
+</head>
+
+<body>
+
+    <!-- Loader -->
+
+    <div class="loader">
+
+        <div class="loader-logo">
+            AK
+        </div>
+
+    </div>
+
+    <!-- Cursor -->
+
+    <div class="cursor"></div>
+
+    <div class="cursor-blur"></div>
+
+    <!-- Progress -->
+
+    <div class="progress-bar"></div>
+
+    <!-- Background -->
+
+    <div class="gradient-bg"></div>
+
+    <div class="noise"></div>
+
+    <div id="particles"></div>
+
+    <!-- Navbar -->
+
+    <header class="header">
+
+        <nav class="navbar container">
+
+            <a href="#" class="logo">
+                <span>A</span>K
+            </a>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#experience">Experience</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <a href="assets/resume.pdf" class="resume-btn">
+                Resume
+            </a>
+
+            <div class="menu-toggle">
+
+                <span></span>
+
+                <span></span>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+  <!-- ================= HERO SECTION ================= -->
+
+<main>
+
+<section class="hero section" id="home">
+
+    <!-- Left Content -->
+
+    <div class="hero-content">
+
+        <span class="hero-badge">
+            <i class="ri-flashlight-fill"></i>
+            Available for Work
+        </span>
+
+        <h1 class="hero-title">
+
+            Hi,
+
+            <br>
+
+            I'm
+
+            <span class="gradient-text">
+                Ankit Kumar
+            </span>
+
+            <br>
+
+            <span id="typing"></span>
+
+        </h1>
+
+        <p class="hero-description">
+
+            I build reliable software through
+            quality engineering and intelligent
+            automation.
+
+            Experienced in Manual Testing,
+            Selenium WebDriver, Java,
+            API Testing, SQL,
+            Jenkins and CI/CD.
+
+        </p>
+
+        <!-- Buttons -->
+
+        <div class="hero-buttons">
+
+            <a href="assets/resume.pdf"
+               class="btn btn-primary magnetic">
+
+                Download Resume
+
+                <i class="ri-download-line"></i>
+
+            </a>
+
+            <a href="#contact"
+               class="btn btn-secondary magnetic">
+
+                Contact Me
+
+                <i class="ri-arrow-right-up-line"></i>
+
+            </a>
+
+        </div>
+
+        <!-- Social Icons -->
+
+        <div class="hero-social">
+
+            <a href="#" target="_blank">
+
+                <i class="ri-linkedin-fill"></i>
+
+            </a>
+
+            <a href="#" target="_blank">
+
+                <i class="ri-github-fill"></i>
+
+            </a>
+
+            <a href="mailto:erankitkumar4@gmail.com">
+
+                <i class="ri-mail-fill"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Right Side -->
+
+    <div class="hero-right">
+
+        <!-- Three.js Canvas -->
+
+        <div id="three-container">
+
+            <canvas id="heroCanvas"></canvas>
+
+        </div>
+
+        <!-- Floating Cards -->
+
+        <div class="floating-card card-one glass">
+
+            <i class="ri-bug-line"></i>
+
+            <div>
+
+                <h4>Automation</h4>
+
+                <p>Selenium + Java</p>
+
+            </div>
+
+        </div>
+
+        <div class="floating-card card-two glass">
+
+            <i class="ri-code-box-line"></i>
+
+            <div>
+
+                <h4>API Testing</h4>
+
+                <p>Postman</p>
+
+            </div>
+
+        </div>
+
+        <div class="floating-card card-three glass">
+
+            <i class="ri-database-2-line"></i>
+
+            <div>
+
+                <h4>SQL</h4>
+
+                <p>Database Validation</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Scroll Down -->
+
+<div class="scroll-indicator">
+
+    <span></span>
+
+</div>
+
+<!-- Animated Background Blobs -->
+
+<div class="blob blob-one"></div>
+
+<div class="blob blob-two"></div>
+
+<div class="blob blob-three"></div>
+
+<!-- Decorative Grid -->
+
+<div class="grid-overlay"></div>
+
+  <!-- ================= ABOUT SECTION ================= -->
+
+<section class="about section" id="about">
+
+    <div class="section-header">
+
+        <span class="section-tag">
+            About Me
+        </span>
+
+        <h2 class="section-title">
+            Quality First.
+            <br>
+            Automation Driven.
+        </h2>
+
+    </div>
+
+    <div class="about-wrapper">
+
+        <!-- Left Card -->
+
+        <div class="about-card glass">
+
+            <span class="card-number">
+                01
+            </span>
+
+            <h3>
+                Who I Am
+            </h3>
+
+            <p>
+
+                I'm <strong>Ankit Kumar Bhartiya</strong>,
+                a Software Test Engineer passionate about
+                building reliable software through
+                Manual Testing, Automation Testing,
+                API Validation and Database Testing.
+
+            </p>
+
+            <p>
+
+                I have hands-on experience with Java,
+                Selenium WebDriver, TestNG,
+                Postman, SQL, Git, Jenkins,
+                JIRA and CI/CD pipelines.
+
+            </p>
+
+            <p>
+
+                My goal is simple —
+                deliver bug-free software with
+                maximum quality and minimum risk.
+
+            </p>
+
+        </div>
+
+        <!-- Right Timeline -->
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content glass">
+
+                    <span>
+                        2025 - Present
+                    </span>
+
+                    <h4>
+
+                        Manual & Automation
+                        Test Engineer
+
+                    </h4>
+
+                    <p>
+
+                        Delta 360 Services
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content glass">
+
+                    <span>
+
+                        2024
+
+                    </span>
+
+                    <h4>
+
+                        Hospital
+                        Management System
+
+                    </h4>
+
+                    <p>
+
+                        Manual Testing,
+                        API Testing,
+                        SQL Validation,
+                        JIRA,
+                        Postman
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content glass">
+
+                    <span>
+
+                        2019 - 2024
+
+                    </span>
+
+                    <h4>
+
+                        Bachelor of Technology
+
+                    </h4>
+
+                    <p>
+
+                        Gurukula Kangri University
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- About Highlights -->
+
+    <div class="about-highlights">
+
+        <div class="highlight-card glass">
+
+            <i class="ri-bug-2-line"></i>
+
+            <h4>
+
+                Manual Testing
+
+            </h4>
+
+            <p>
+
+                Functional Testing,
+                Regression Testing,
+                Integration Testing
+
+            </p>
+
+        </div>
+
+        <div class="highlight-card glass">
+
+            <i class="ri-code-s-slash-line"></i>
+
+            <h4>
+
+                Automation
+
+            </h4>
+
+            <p>
+
+                Selenium,
+                Java,
+                TestNG,
+                Jenkins
+
+            </p>
+
+        </div>
+
+        <div class="highlight-card glass">
+
+            <i class="ri-database-2-line"></i>
+
+            <h4>
+
+                Database
+
+            </h4>
+
+            <p>
+
+                SQL,
+                MySQL,
+                SQL Server,
+                Validation
+
+            </p>
+
+        </div>
+
+        <div class="highlight-card glass">
+
+            <i class="ri-cloud-line"></i>
+
+            <h4>
+
+                API Testing
+
+            </h4>
+
+            <p>
+
+                REST APIs,
+                Postman,
+                Response Validation
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= END ABOUT ================= -->
+
+  <!-- ========================================= -->
+<!-- EXPERIENCE SECTION -->
+<!-- ========================================= -->
+
+<section class="experience section" id="experience">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                Experience
+            </span>
+
+            <h2 class="section-title">
+                Building Quality Through
+                <span class="gradient-text">Testing & Automation</span>
+            </h2>
+
+            <p class="section-description">
+                My professional journey focused on delivering reliable,
+                scalable and bug-free software applications.
+            </p>
+
+        </div>
+
+        <div class="experience-wrapper">
+
+            <!-- Timeline -->
+
+            <div class="experience-line"></div>
+
+            <!-- Experience Card -->
+
+            <div class="experience-card glass">
+
+                <div class="experience-date">
+
+                    <span>
+                        June 2025
+                    </span>
+
+                    <small>
+                        Present
+                    </small>
+
+                </div>
+
+                <div class="experience-content">
+
+                    <span class="company-name">
+
+                        Delta 360 Services
+
+                    </span>
+
+                    <h3>
+
+                        Manual & Automation Test Engineer
+
+                    </h3>
+
+                    <p>
+
+                        Working on enterprise-level applications using
+                        Manual Testing, Selenium Automation,
+                        API Validation, SQL Database Testing,
+                        Regression Testing and CI/CD.
+
+                    </p>
+
+                    <div class="experience-tags">
+
+                        <span>Java</span>
+
+                        <span>Selenium</span>
+
+                        <span>TestNG</span>
+
+                        <span>JIRA</span>
+
+                        <span>Postman</span>
+
+                        <span>Git</span>
+
+                        <span>Jenkins</span>
+
+                        <span>SQL</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Achievements -->
+
+        <div class="achievement-grid">
+
+            <div class="achievement-card glass">
+
+                <i class="ri-checkbox-circle-line"></i>
+
+                <h3>
+                    Regression Testing
+                </h3>
+
+                <p>
+
+                    Designed and executed comprehensive regression
+                    suites ensuring stable releases.
+
+                </p>
+
+            </div>
+
+            <div class="achievement-card glass">
+
+                <i class="ri-robot-2-line"></i>
+
+                <h3>
+
+                    Automation Framework
+
+                </h3>
+
+                <p>
+
+                    Developed Selenium WebDriver automation
+                    using Java & TestNG.
+
+                </p>
+
+            </div>
+
+            <div class="achievement-card glass">
+
+                <i class="ri-database-2-line"></i>
+
+                <h3>
+
+                    Database Testing
+
+                </h3>
+
+                <p>
+
+                    Validated backend data using SQL,
+                    MySQL and SQL Server.
+
+                </p>
+
+            </div>
+
+            <div class="achievement-card glass">
+
+                <i class="ri-cloud-line"></i>
+
+                <h3>
+
+                    API Testing
+
+                </h3>
+
+                <p>
+
+                    Performed REST API validation
+                    using Postman.
+
+                </p>
+
+            </div>
+
+            <div class="achievement-card glass">
+
+                <i class="ri-git-branch-line"></i>
+
+                <h3>
+
+                    CI / CD
+
+                </h3>
+
+                <p>
+
+                    Integrated automation suites
+                    with Jenkins pipelines.
+
+                </p>
+
+            </div>
+
+            <div class="achievement-card glass">
+
+                <i class="ri-bug-line"></i>
+
+                <h3>
+
+                    Defect Management
+
+                </h3>
+
+                <p>
+
+                    Complete defect lifecycle
+                    management through JIRA.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- END EXPERIENCE -->
+<!-- ========================================= -->
+
+  <!-- ========================================= -->
+<!-- SKILLS SECTION -->
+<!-- ========================================= -->
+
+<section class="skills section" id="skills">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                My Skills
+            </span>
+
+            <h2 class="section-title">
+                Technologies &
+                <span class="gradient-text">Quality Engineering</span>
+            </h2>
+
+            <p class="section-description">
+                Modern testing tools, automation frameworks and technologies
+                used to deliver high-quality software.
+            </p>
+
+        </div>
+
+        <!-- Category Tabs -->
+
+        <div class="skill-tabs">
+
+            <button class="tab active">Automation</button>
+
+            <button class="tab">Testing</button>
+
+            <button class="tab">Programming</button>
+
+            <button class="tab">Tools</button>
+
+        </div>
+
+        <!-- Skill Grid -->
+
+        <div class="skills-grid">
+
+            <!-- Card -->
+
+            <div class="skill-card glass">
+
+                <div class="skill-icon">
+                    <i class="ri-code-box-line"></i>
+                </div>
+
+                <h3>Java</h3>
+
+                <div class="progress-circle" data-progress="90">
+
+                    <svg>
+
+                        <circle cx="55" cy="55" r="45"></circle>
+
+                        <circle cx="55" cy="55" r="45"
+                            class="progress"></circle>
+
+                    </svg>
+
+                    <span>90%</span>
+
+                </div>
+
+            </div>
+
+            <div class="skill-card glass">
+
+                <div class="skill-icon">
+                    <i class="ri-bug-line"></i>
+                </div>
+
+                <h3>Selenium</h3>
+
+                <div class="progress-circle" data-progress="95">
+
+                    <svg>
+
+                        <circle cx="55" cy="55" r="45"></circle>
+
+                        <circle cx="55" cy="55" r="45"
+                            class="progress"></circle>
+
+                    </svg>
+
+                    <span>95%</span>
+
+                </div>
+
+            </div>
+
+            <div class="skill-card glass">
+
+                <div class="skill-icon">
+                    <i class="ri-test-tube-line"></i>
+                </div>
+
+                <h3>TestNG</h3>
+
+                <div class="progress-circle" data-progress="88">
+
+                    <svg>
+
+                        <circle cx="55" cy="55" r="45"></circle>
+
+                        <circle cx="55" cy="55" r="45"
+                            class="progress"></circle>
+
+                    </svg>
+
+                    <span>88%</span>
+
+                </div>
+
+            </div>
+
+            <div class="skill-card glass">
+
+                <div class="skill-icon">
+                    <i class="ri-cloud-line"></i>
+                </div>
+
+                <h3>Postman</h3>
+
+                <div class="progress-circle" data-progress="90">
+
+                    <svg>
+
+                        <circle cx="55" cy="55" r="45"></circle>
+
+                        <circle cx="55" cy="55" r="45"
+                            class="progress"></circle>
+
+                    </svg>
+
+                    <span>90%</span>
+
+                </div>
+
+            </div>
+
+            <div class="skill-card glass">
+
+                <div class="skill-icon">
+                    <i class="ri-database-2-line"></i>
+                </div>
+
+                <h3>SQL</h3>
+
+                <div class="progress-circle" data-progress="85">
+
+                    <svg>
+
+                        <circle cx="55" cy="55" r="45"></circle>
+
+                        <circle cx="55" cy="55" r="45"
+                            class="progress"></circle>
+
+                    </svg>
+
+                    <span>85%</span>
+
+                </div>
+
+            </div>
+
+            <div class="skill-card glass">
+
+                <div class="skill-icon">
+                    <i class="ri-settings-3-line"></i>
+                </div>
+
+                <h3>Jenkins</h3>
+
+                <div class="progress-circle" data-progress="82">
+
+                    <svg>
+
+                        <circle cx="55" cy="55" r="45"></circle>
+
+                        <circle cx="55" cy="55" r="45"
+                            class="progress"></circle>
+
+                    </svg>
+
+                    <span>82%</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Tech Marquee -->
+
+        <div class="tech-slider">
+
+            <div class="slider-track">
+
+                <span>Java</span>
+
+                <span>Selenium</span>
+
+                <span>TestNG</span>
+
+                <span>Manual Testing</span>
+
+                <span>Automation</span>
+
+                <span>Regression</span>
+
+                <span>API Testing</span>
+
+                <span>Postman</span>
+
+                <span>JIRA</span>
+
+                <span>Git</span>
+
+                <span>Jenkins</span>
+
+                <span>MySQL</span>
+
+                <span>SQL Server</span>
+
+                <span>CI/CD</span>
+
+                <!-- Duplicate for Infinite Loop -->
+
+                <span>Java</span>
+
+                <span>Selenium</span>
+
+                <span>TestNG</span>
+
+                <span>Manual Testing</span>
+
+                <span>Automation</span>
+
+                <span>Regression</span>
+
+                <span>API Testing</span>
+
+                <span>Postman</span>
+
+                <span>JIRA</span>
+
+                <span>Git</span>
+
+                <span>Jenkins</span>
+
+                <span>MySQL</span>
+
+                <span>SQL Server</span>
+
+                <span>CI/CD</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- END SKILLS -->
+<!-- ========================================= -->
+
+  <!-- ========================================= -->
+<!-- PROJECTS SECTION -->
+<!-- ========================================= -->
+
+<section class="projects section" id="projects">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                Featured Project
+            </span>
+
+            <h2 class="section-title">
+                Projects That Deliver
+                <span class="gradient-text">
+                    Real Business Value
+                </span>
+            </h2>
+
+            <p class="section-description">
+                Enterprise testing projects focused on quality,
+                automation and reliable software delivery.
+            </p>
+
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Project Card -->
+
+            <article class="project-card glass">
+
+                <div class="project-image">
+
+                    <img src="assets/images/hospital-project.jpg"
+                        alt="Hospital Management System">
+
+                    <div class="project-overlay">
+
+                        <a href="#"
+                           class="project-btn">
+
+                            <i class="ri-eye-line"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-category">
+
+                        Enterprise Application
+
+                    </span>
+
+                    <h3>
+
+                        Hospital Management System
+
+                    </h3>
+
+                    <p>
+
+                        Performed Manual Testing,
+                        API Validation,
+                        SQL Database Testing,
+                        Functional Testing,
+                        Regression Testing
+                        and Defect Reporting
+                        across multiple modules.
+
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>Java</span>
+
+                        <span>Selenium</span>
+
+                        <span>JIRA</span>
+
+                        <span>Postman</span>
+
+                        <span>SQL</span>
+
+                        <span>API</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- Metrics -->
+
+            <article class="project-metrics glass">
+
+                <h3>
+
+                    Project Highlights
+
+                </h3>
+
+                <div class="metric">
+
+                    <span>100+</span>
+
+                    <p>
+                        Test Cases Designed
+                    </p>
+
+                </div>
+
+                <div class="metric">
+
+                    <span>5</span>
+
+                    <p>
+                        Core Modules Tested
+                    </p>
+
+                </div>
+
+                <div class="metric">
+
+                    <span>0</span>
+
+                    <p>
+                        Critical Production Bugs
+                    </p>
+
+                </div>
+
+                <div class="metric">
+
+                    <span>100%</span>
+
+                    <p>
+                        Database Validation
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+        <!-- Feature Cards -->
+
+        <div class="feature-grid">
+
+            <div class="feature-card glass">
+
+                <i class="ri-test-tube-line"></i>
+
+                <h4>
+                    Manual Testing
+                </h4>
+
+                <p>
+
+                    Functional, Regression,
+                    Smoke & Integration Testing.
+
+                </p>
+
+            </div>
+
+            <div class="feature-card glass">
+
+                <i class="ri-cloud-line"></i>
+
+                <h4>
+                    API Validation
+                </h4>
+
+                <p>
+
+                    REST API Testing,
+                    Request & Response Validation.
+
+                </p>
+
+            </div>
+
+            <div class="feature-card glass">
+
+                <i class="ri-database-2-line"></i>
+
+                <h4>
+                    Database Testing
+                </h4>
+
+                <p>
+
+                    SQL Queries,
+                    Data Integrity &
+                    Backend Validation.
+
+                </p>
+
+            </div>
+
+            <div class="feature-card glass">
+
+                <i class="ri-bug-line"></i>
+
+                <h4>
+                    Bug Tracking
+                </h4>
+
+                <p>
+
+                    Complete Defect Lifecycle
+                    using JIRA.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- END PROJECT SECTION -->
+<!-- ========================================= -->
+
+  <!-- ========================================= -->
+<!-- STATISTICS SECTION -->
+<!-- ========================================= -->
+
+<section class="statistics section" id="statistics">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                Achievements
+            </span>
+
+            <h2 class="section-title">
+
+                Numbers That Reflect
+                <span class="gradient-text">
+                    My Experience
+                </span>
+
+            </h2>
+
+            <p class="section-description">
+
+                Every project strengthened my expertise in
+                automation, quality engineering and software testing.
+
+            </p>
+
+        </div>
+
+        <!-- Counter Cards -->
+
+        <div class="stats-grid">
+
+            <div class="stat-card glass">
+
+                <div class="stat-icon">
+
+                    <i class="ri-file-list-3-line"></i>
+
+                </div>
+
+                <h3 class="counter"
+                    data-target="100">
+
+                    0
+
+                </h3>
+
+                <span>+</span>
+
+                <p>
+
+                    Test Cases Designed
+
+                </p>
+
+            </div>
+
+            <div class="stat-card glass">
+
+                <div class="stat-icon">
+
+                    <i class="ri-layout-grid-line"></i>
+
+                </div>
+
+                <h3 class="counter"
+                    data-target="5">
+
+                    0
+
+                </h3>
+
+                <span>+</span>
+
+                <p>
+
+                    Enterprise Modules Tested
+
+                </p>
+
+            </div>
+
+            <div class="stat-card glass">
+
+                <div class="stat-icon">
+
+                    <i class="ri-code-box-line"></i>
+
+                </div>
+
+                <h3 class="counter"
+                    data-target="12">
+
+                    0
+
+                </h3>
+
+                <span>+</span>
+
+                <p>
+
+                    Modern Technologies
+
+                </p>
+
+            </div>
+
+            <div class="stat-card glass">
+
+                <div class="stat-icon">
+
+                    <i class="ri-award-line"></i>
+
+                </div>
+
+                <h3 class="counter"
+                    data-target="100">
+
+                    0
+
+                </h3>
+
+                <span>%</span>
+
+                <p>
+
+                    Quality Focused
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Achievement Banner -->
+
+        <div class="achievement-banner glass">
+
+            <div class="achievement-left">
+
+                <span class="achievement-label">
+
+                    CURRENT ROLE
+
+                </span>
+
+                <h3>
+
+                    Manual & Automation Test Engineer
+
+                </h3>
+
+                <p>
+
+                    Delivering reliable enterprise applications
+                    through Automation Testing,
+                    API Validation,
+                    Regression Testing
+                    and CI/CD.
+
+                </p>
+
+            </div>
+
+            <div class="achievement-right">
+
+                <a href="#contact"
+                   class="btn btn-primary magnetic">
+
+                    Let's Work Together
+
+                    <i class="ri-arrow-right-up-line"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Floating Tech Cards -->
+
+        <div class="tech-highlight-grid">
+
+            <div class="tech-highlight glass">
+
+                <i class="ri-bug-line"></i>
+
+                <h4>
+
+                    Manual Testing
+
+                </h4>
+
+            </div>
+
+            <div class="tech-highlight glass">
+
+                <i class="ri-robot-2-line"></i>
+
+                <h4>
+
+                    Automation Testing
+
+                </h4>
+
+            </div>
+
+            <div class="tech-highlight glass">
+
+                <i class="ri-cloud-line"></i>
+
+                <h4>
+
+                    REST API
+
+                </h4>
+
+            </div>
+
+            <div class="tech-highlight glass">
+
+                <i class="ri-database-2-line"></i>
+
+                <h4>
+
+                    SQL Validation
+
+                </h4>
+
+            </div>
+
+            <div class="tech-highlight glass">
+
+                <i class="ri-settings-3-line"></i>
+
+                <h4>
+
+                    Jenkins CI/CD
+
+                </h4>
+
+            </div>
+
+            <div class="tech-highlight glass">
+
+                <i class="ri-git-branch-line"></i>
+
+                <h4>
+
+                    Git Workflow
+
+                </h4>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- END STATISTICS -->
+<!-- ========================================= -->
+
+  <!-- ========================================= -->
+<!-- CONTACT SECTION -->
+<!-- ========================================= -->
+
+<section class="contact section" id="contact">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+                Contact
+            </span>
+
+            <h2 class="section-title">
+
+                Let's Build Something
+                <span class="gradient-text">
+                    Amazing Together
+                </span>
+
+            </h2>
+
+            <p class="section-description">
+
+                Looking for a QA Engineer, Automation Tester,
+                or Software Test Engineer?
+                Let's connect and discuss your next project.
+
+            </p>
+
+        </div>
+
+        <div class="contact-wrapper">
+
+            <!-- Left Side -->
+
+            <div class="contact-info">
+
+                <div class="info-card glass">
+
+                    <i class="ri-mail-send-line"></i>
+
+                    <div>
+
+                        <span>Email</span>
+
+                        <h4>
+
+                            erankitkumar4@gmail.com
+
+                        </h4>
+
+                    </div>
+
+                </div>
+
+                <div class="info-card glass">
+
+                    <i class="ri-phone-line"></i>
+
+                    <div>
+
+                        <span>Phone</span>
+
+                        <h4>
+
+                            +91 63878 14461
+
+                        </h4>
+
+                    </div>
+
+                </div>
+
+                <div class="info-card glass">
+
+                    <i class="ri-map-pin-line"></i>
+
+                    <div>
+
+                        <span>Location</span>
+
+                        <h4>
+
+                            Prayagraj, Uttar Pradesh
+
+                        </h4>
+
+                    </div>
+
+                </div>
+
+                <!-- Social -->
+
+                <div class="social-links">
+
+                    <a href="#" class="glass">
+
+                        <i class="ri-linkedin-fill"></i>
+
+                    </a>
+
+                    <a href="#" class="glass">
+
+                        <i class="ri-github-fill"></i>
+
+                    </a>
+
+                    <a href="#" class="glass">
+
+                        <i class="ri-twitter-x-line"></i>
+
+                    </a>
+
+                    <a href="mailto:erankitkumar4@gmail.com" class="glass">
+
+                        <i class="ri-mail-fill"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Right Side -->
+
+            <div class="contact-form glass">
+
+                <form>
+
+                    <div class="input-group">
+
+                        <input
+                            type="text"
+                            placeholder="Your Name"
+                            required>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input
+                            type="email"
+                            placeholder="Email Address"
+                            required>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input
+                            type="text"
+                            placeholder="Subject">
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <textarea
+                            rows="6"
+                            placeholder="Write your message..."
+                            required></textarea>
+
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary magnetic">
+
+                        Send Message
+
+                        <i class="ri-send-plane-fill"></i>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <!-- CTA -->
+
+        <div class="contact-banner glass">
+
+            <h3>
+
+                Open for Full-Time Opportunities
+
+            </h3>
+
+            <p>
+
+                Manual Testing • Automation Testing • API Testing •
+                Selenium • Java • TestNG • SQL • Jenkins
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- FOOTER -->
+<!-- ========================================= -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-top">
+
+            <div>
+
+                <h2 class="footer-logo">
+
+                    AK.
+
+                </h2>
+
+                <p>
+
+                    Building reliable software through
+                    quality engineering and intelligent automation.
+
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+
+                <a href="#about">About</a>
+
+                <a href="#experience">Experience</a>
+
+                <a href="#skills">Skills</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#contact">Contact</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © 2026 Ankit Kumar Bhartiya.
+                All Rights Reserved.
+
+            </p>
+
+            <p>
+
+                Designed & Developed with ❤️ using
+                HTML, CSS, JavaScript,
+                GSAP & Three.js
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- JavaScript -->
+
+<script src="main.js"></script>
+
+<script src="threeScene.js"></script>
+
+<script src="gsap.js"></script>
+
+</body>
+
+</html>
