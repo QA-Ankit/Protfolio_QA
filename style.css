@@ -1237,21 +1237,8 @@ opacity:.45;
 SCROLL ANIMATION READY
 ==================================================*/
 
-.hero-content>*{
-
-opacity:0;
-
-transform:translateY(40px);
-
-}
-
-.hero-right{
-
-opacity:0;
-
-transform:translateX(80px);
-
-}
+.hero-content>*{opacity:1;transform:none;}
+.hero-right{opacity:1;transform:none;}
 
 /*==================================================
 ABOUT SECTION
